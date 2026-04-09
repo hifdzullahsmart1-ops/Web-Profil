@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Profil Mahasiswa Informatika</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+        }
+
+        .section {
+            background: white;
+            margin: 20px;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+
+        img {
+            width: 150px;
+            border-radius: 10px;
+        }
+
+        a {
+            color: blue;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HOME -->
+    <div class="section">
+        <h1>Home</h1>
+        <p>Selamat datang di <span class="highlight">website profil saya</span></p>
+
+        <a href="#profil">Ke Profil</a> |
+        <a href="#kontak">Ke Kontak</a>
+    </div>
+
+    <!-- PROFIL -->
+    <div class="section" id="profil">
+        <h1>Profil</h1>
+
+        <p>Ini adalah <span class="highlight">Profil Hifdzullah Anugerah</span></p>
+
+        <h3>Detail</h3>
+        <ul>
+            <li>NIM: 2024018094</li>
+            <li>Nama: Hifdzullah Anugerah Sejahtera</li>
+            <li>Kelas: C</li>
+            <li>Prodi: Informatika</li>
+        </ul>
+
+        <h3>Hobi</h3>
+        <ul>
+            <li>Reading</li>
+            <li>Football</li>
+            <li>Watch Movie</li>
+        </ul>
+
+        <h3>Foto</h3>
+        <img src="https://i.ibb.co/PGB4V7by/1761878796288.jpg">
+
+        <h3>Hyperlink</h3>
+        <br><br>
+        <a href="https://google.com" target="_blank">Kunjungi Google</a>
+    </div>
+
+    <!-- KONTAK -->
+    <div class="section" id="kontak">
+        <h1>Kontak</h1>
+
+        <p>Email: hifdzilanugrah@gmail.com</p>
+        <p>Whatsapp: 08818790127</p>
+
+        <h3>Form Kontak</h3>
+        <form>
+            User:<br>
+            <input type="text" name="user"><br>
+
+            Password:<br>
+            <input type="password" name="password"><br>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+
+</body>
+</html>
